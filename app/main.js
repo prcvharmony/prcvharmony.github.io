@@ -78,13 +78,9 @@ $(function() {
   function init_name() {
 
   	$('#name').show();
-
-    
   	$('#submit_username').on('click',function() {
-
   		var error = 0;
   		var uname = $('#username').val();
-
   		if(uname == "") {
   			error = 1;
   			errormsg = 'Please enter text';
@@ -312,20 +308,22 @@ $(function() {
 
     // Redirect, default after 30000ms = 300s = 5min
     setTimeout(function() {
-    
-    $(window).unbind('beforeunload');
-    
-    $('#final-continue').show();
-
-    $('#timer').text('00:00');
-
-    $('#results-continue').on('click', function() {
-
-      // Redirect link
-	console.log("User has completed task");
-  	window.close();
+        $(window).unbind('beforeunload');
+        $('#final-continue').show();
+        $('#timer').text('00:00');
+        $('#final-continue').on('click', function() {
+            console.log("User has clicked to view results");
+            $('#task').hide();
+            $('#usertmp').hide();
+            $('#otherstmp').hide();
+            $('#modal_results').show();
     });
 
+    $('#results-continue').on('click', function() {
+      // Redirect link
+       console.log("User has completed task");
+       window.close();
+    });
     
     },window.settings.tasklength); // timing for task
 
