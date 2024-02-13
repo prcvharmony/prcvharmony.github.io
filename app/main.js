@@ -53,7 +53,7 @@ $(function() {
 	
     // Usernames by which the participant will receive "likes"
 	// If group member names are changed, these should be changed accordingly.
-    settings.likes_by = ['Louisa','Priya','Carlos','Jeremiah','Nora','Samuel','Jo','Lee','Veronica']; 
+    settings.likes_by = ['Louisa','Priya','Carlos','Jeremiah','Nora','Samuel','Jo','Lee','Sofia']; 
   }
   
   // -------------------
