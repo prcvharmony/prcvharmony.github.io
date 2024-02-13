@@ -27,9 +27,9 @@ $(function() {
 
 	
 	// **Tasklength**     
-    // Length of the group introduction task in milliseconds. Can be changed to any number (in ms). Default: 180000 (3min) 
-    settings.tasklength = 180000; 
-    //settings.tasklength = 180000; // makes developing easier when we only wait 15 seconds :)
+    // Length of the group introduction task in milliseconds. Can be changed to any number (in ms). Default: 18000 (3min) 
+    settings.tasklength = 18000; 
+    //settings.tasklength = 18000; // makes developing easier when we only wait 15 seconds :)
 
 	
 	// **Number** **of** **"likes"**    
@@ -53,7 +53,7 @@ $(function() {
 	
     // Usernames by which the participant will receive "likes"
 	// If group member names are changed, these should be changed accordingly.
-    settings.likes_by = ['John','AncaD','Sarah','Arjen','Jane','George','Dan','Heather','Ky']; 
+    settings.likes_by = ['Louisa','Priya','Carlos','Jeremiah','Nora','Samuel','Jo','Lee','Veronica']; 
   }
   
   // -------------------
@@ -208,7 +208,7 @@ $(function() {
 	shortcut.add("Backspace",function() {});      
 
   	jQuery("#countdown").countDown({
-  		startNumber: window.settings.tasklength/1000, // in seconds
+  		startNumber: window.settings.tasklength/18000, // in seconds
   		callBack: function(me) {
   			console.log('over');
         $('#timer').text('00:00');
@@ -306,7 +306,7 @@ $(function() {
 		});
 
 
-    // Redirect, default after 30000ms = 300s = 5min
+    // Redirect, default after 18000ms = 180s = 3min
     setTimeout(function() {
         $(window).unbind('beforeunload');
         $('#final-continue').show();
@@ -441,7 +441,7 @@ $(function() {
     settings = jQuery.extend({
       startFontSize: "12px",
       endFontSize: "12px",
-      duration: 1000,
+      duration: 18000,
       startNumber: 10,
       endNumber: 0,
       callBack: function() { }
