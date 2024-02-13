@@ -4,9 +4,9 @@
 window.others = {
   "posts" : [
       {
-        "avatar": "avatars/others/george.png",
-        "username": "George",
-        "text": "I'm a 19 year old dude from Wisconsin (commence making fun of my accent). I love music and lately you can catch me listening to nothing but Joy Division, Echo & the bunnymen, and the smiths. Besides music I like learning languages, psychology, drawing, and writing.",
+        "avatar": "avatars/others/olivia.png",
+        "username": "Olivia",
+        "text": "Hello! My name is Olivia and I’m a political science major in undergrad. Currently, my focus is on international relations and diplomacy. I’m thinking about adding sociology as a minor because I’m really interested in learning more about how the world works! In my free time you’ll catch me rewatching the Kardashians to unwind. .",
         "likes": [45000, 50000, 110000, 150000] //4
       },
       {
