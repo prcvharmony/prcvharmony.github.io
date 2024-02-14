@@ -4,67 +4,67 @@
 window.others = {
   "posts" : [
       {
-        "avatar": "avatars/others/olivia.png",
+        "avatar": "avatars/others/olivia.jpg",
         "username": "Olivia",
         "text": "Hello! My name is Olivia and I’m a political science major in undergrad. Currently, my focus is on international relations and diplomacy. I’m thinking about adding sociology as a minor because I’m really interested in learning more about how the world works! In my free time you’ll catch me rewatching the Kardashians to unwind. .",
         "likes": [45000, 50000, 110000, 150000] //4
       },
       {
-        "avatar": "avatars/others/louisa.png",
+        "avatar": "avatars/others/louisa.jpg",
         "username": "Louisa",
         "text": "Hey!!! I’m Louisa! I’m 24 and fresh out of college, navigating the ins and outs of a law firm internship. When I'm not buried in case files, you'll catch me unwinding with my feline friends. Maybe I’m a little weird, but my fav thing to do is curl up with a law book and a cup of tea.",
         "likes": [12000, 14000,15000,35000,80000,100000,110000,150000,20000] //9
       },
       {
-        "avatar": "avatars/others/priya.png",
+        "avatar": "avatars/others/priya.jpg",
         "username": "Priya",
         "text": "Hey, it's Priya, 19, I love music and books! I’ve been playing violin for a while now and I’m thinking of picking up a new instrument soon because, hey, why not? I’d love to play with someone else, maybe start a band?? I’m a sophomore lit major at GW and I’m getting used to living in the city, but if anyone has any activity recommendations...",
 		"likes": [20000, 21000] //2
       },
       {
-        "avatar": "avatars/others/jo.png",
+        "avatar": "avatars/others/jo.jpg",
         "username": "Jo",
         "text": "Hi there, I'm Jo, I’m in my first year of a Masters program. When I’m not super bogged down with school I’m probably hiking with my friends or volunteering at the animal shelter so I can play with some dogs. I’m originally from London and really miss it, I plan to go back once I finish my degree!",
         "likes": [10000, 12000, 40000, 80000, 120000] //5
       },
       {
-        "avatar": "avatars/others/lee.png",
+        "avatar": "avatars/others/lee.jpg",
         "username": "Lee",
         "text": "Hi folks! I'm Lee, I am 18 years old and non-binary. I’m in my first year of college and enjoying it so far as a psych major. I’m a huge boygenius fan and overall love Phoebe Bridgers in everything she does. When I’m not studying, I chill in my dorm and watch SpongeBob.",
         "likes": [40000, 450000, 90000, 100000, 150000, 155000] //6
       },
     {
-        "avatar": "avatars/others/nora.png",
+        "avatar": "avatars/others/nora.jpg",
         "username": "Nora",
         "text": "Hey guys! I’m Nora! I’m 20 and creating a style revolution! This past summer I was thriving when Barbenheimer came out and sewed my outfit for the event, ever since then I have been in love with designing and making my own clothes. Besides fashion, I hang out with my friends, listen to Renee Rapp, and try to rest and relax.",
         "likes": [20000, 25000, 95000] //4
       },
       {
-        "avatar": "avatars/others/carlos.png",
+        "avatar": "avatars/others/carlos.jpg",
         "username": "Carlos",
         "text": "Hi, I'm Carlos, I’m 20 years old and Cuban. I’m a huge movie nerd and my favorite recent movie release was the new hunger games movie. I saw the movies as a kid but really enjoyed the prequel this past year. But beyond movies, I'm into soccer and I coach a youth soccer team which has been cool. I’m finishing up my associates at community college and hope to transfer to a four-year university soon",
         "likes": [12000, 38000] //3
       },
           {
-        "avatar": "avatars/others/jeremiah.png",
+        "avatar": "avatars/others/jeremiah.jpg",
         "username": "Jeremiah",
         "text": "I'm Jeremiah and I’m 25 years old! I’m a graphic designer focused on making empowering art. Outside the studio, I'm a community mural project coordinator which has been a dream job. I collaborate with local schools, involving students in the creation of public art that reflects their stories, so their voices are heard.",
         "likes": [10000, 50000, 88000, 11000, 11500, 120000, 15000] //7
       },
       {
-        "avatar": "avatars/others/samuel.png",
+        "avatar": "avatars/others/samuel.jpg",
         "username": "Samuel",
         "text": "Sup, I’m Samuel, 22 and about to finish my last year of college. Living that senior year glory while juggling frat life and getting a job or something for after graduation. I’m a huge Chiefs fan and have therefore become a swiftie, Superbowl was sick this year",
         "likes": [12000, 40000, 120000] //3
       },
       {
-        "avatar": "avatars/others/liani.png",
+        "avatar": "avatars/others/liani.jpg",
         "username": "Liani",
         "text": "Hey everyone, I'm Liani, a 24-year-old social justice advocate! I currently work for a non-profit and I’m committed to creating a more equitable and inclusive society for everyone, not just the rich. I'm passionate about fighting for marginalized communities and driving meaningful change. My goal list to engage in crucial conversations, amplify underrepresented voices, and work towards building a better world for all!",
         "likes": [13000, 50000, 80000, 88000, 120000] //5
       },
       {
-        "avatar": "avatars/others/sadie.png",
+        "avatar": "avatars/others/sadie.jpg",
         "username": "Sadie",
         "text": "Hey there! I'm Sadie, and I am an animal rights crusader and vegan chef with a heart full of love for all creatures great and small. Whether I'm whipping up delicious plant-based meals in the kitchen or advocating for the ethical treatment of animals, I'm dedicated to creating a kinder, cruelty-free world.",
         "likes": [10000, 50000] //6
