@@ -112,7 +112,7 @@ $(function() {
     var avatars = window.settings.numberofavatars;    
   	for(var i=0; i<avatars; i++) 
   	{ 
-  		$('.avatars').append('<img id="avatar_' + i+ '" src="avatars/avatar_' + i + '.png" class="avatar" />');
+  		$('.avatars').append('<img id="avatar_' + i+ '" src="avatars/avatar_' + i + '.jpg" class="avatar" />');
   	} 
 
   	$('.avatar').on('click', function() {
@@ -218,7 +218,7 @@ $(function() {
 		users = {
 		  "posts" : [
 			{
-			  "avatar": 'avatars/' + window.avatar + '.png',
+			  "avatar": 'avatars/' + window.avatar + '.jpg',
 			  "username": window.username,
 			  "text": window.description,
 			  "likes": window.settings.condition_likes,
