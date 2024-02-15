@@ -207,8 +207,9 @@ $(function() {
 
 	shortcut.add("Backspace",function() {});      
 
+	console.log("starting countdown");
   	jQuery("#countdown").countDown({
-  		startNumber: window.settings.tasklength/18000, // in seconds
+  		startNumber: window.settings.tasklength/1000, // in seconds
   		callBack: function(me) {
   			console.log('over');
         $('#timer').text('00:00');
@@ -441,7 +442,7 @@ $(function() {
     settings = jQuery.extend({
       startFontSize: "12px",
       endFontSize: "12px",
-      duration: 18000,
+      duration: 1000,
       startNumber: 10,
       endNumber: 0,
       callBack: function() { }
